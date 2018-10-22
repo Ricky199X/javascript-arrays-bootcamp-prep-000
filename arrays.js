@@ -20,6 +20,6 @@ function addElementToBeginningOfArray(array, element) {
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   let newArray = [];
-  newArray[0] = element;
+  newArray = [element,...array];
   return newArray;
 }
