@@ -28,3 +28,8 @@ function addElementToEndOfArray(array, element) {
   updatedArray = [...array, element];
   return updatedArray;
 }
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element);
+  return array;
+}
