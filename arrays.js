@@ -6,4 +6,3 @@ console.log(chocolateBars);
 var cities = ['Boston', 'New York', 'Philly', 'Frisco'];
 cities.unshift('Oakland');
 
-['Philade']
