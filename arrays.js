@@ -14,7 +14,7 @@ console.log(chocolateBars);
 
 function addElementToBeginningOfArray(array, element) {
   let updatedArray = [];
-  updatedArray = [...array];
+  updatedArray = ['element',...array];
   return updatedArray;
 }
 
