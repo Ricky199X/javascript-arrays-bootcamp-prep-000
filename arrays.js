@@ -1,16 +1,23 @@
-var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+// var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
-chocolateBars.push('smarties');
-console.log(chocolateBars);
+// chocolateBars.push('smarties');
+// console.log(chocolateBars);
 
-var cities = ['Boston', 'New York', 'Philly', 'Frisco'];
-cities.unshift('Oakland');
+// var cities = ['Boston', 'New York', 'Philly', 'Frisco'];
+// cities.unshift('Oakland');
 
-[...cities];
+// [...cities];
 
-const cats = ['Garfield', 'Milo'];
-const moreCats = ['Felix',...cats];
-console.log(moreCats);
+// const cats = ['Garfield', 'Milo'];
+// const moreCats = ['Felix',...cats];
+// console.log(moreCats);
 
+function addElementToBeginningOfArray(array, element) {
+  let updatedArray = [];
+  updatedArray = array.unshift(element);
+  return updatedArray;
+}
 
-
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  
+}
